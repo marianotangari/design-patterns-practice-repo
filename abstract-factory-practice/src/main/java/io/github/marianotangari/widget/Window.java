@@ -27,8 +27,7 @@ public class Window extends Widget {
 
     /**
      * This method adds a Widget to the window. The added widget will be display as an element on the window
-     * when the window is rendered. You should also set the x and y coordinates for the Widget to
-     * be inserted on the window layout.
+     * when the window is rendered. You should also set the x and y coordinates for the Widget to be inserted on the window layout.
      * @param xPosition x coordinate
      * @param yPosition y coordinate
      * @param widget any subclass of Widget

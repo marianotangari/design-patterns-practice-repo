@@ -7,6 +7,5 @@ public interface WidgetAbstractFactory {
     Button createButton();
     Menu createMenu();
     Window createWindow();
-
     Label createLabel();
 }
