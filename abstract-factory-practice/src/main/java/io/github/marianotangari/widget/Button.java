@@ -10,7 +10,7 @@ public class Button extends Widget implements Clickable {
 
     @Override
     public void onClick() {
-        System.out.printf("Loading location: %s%n", link);
+        System.out.println(String.format("Loading location: %s%n", link));
     }
 
     public Widget setLink(String link) {
