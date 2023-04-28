@@ -16,7 +16,7 @@ public class Window extends Widget {
 
     private Map<Widget, Map<String, Double>> elements = new HashMap<>();
 
-    public Widget setBorderColor(String borderColor) {
+    public Window setBorderColor(String borderColor) {
         this.borderColor = borderColor;
         return this;
     }

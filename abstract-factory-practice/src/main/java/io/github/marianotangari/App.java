@@ -23,6 +23,9 @@ public class App
         menu.setHeight(4000).setWidth(3000).setName("randomMenu");
         window.setHeight(4000).setWidth(3000).setName("randomWindow");
 
+        window.setBorderColor("black");
+        menu.addLabels(label);
+
         window.addWidget(40, 50, menu);
         window.addWidget(60, 90, label);
 
@@ -36,5 +39,9 @@ public class App
         //Wrong mixture of Win widgets and macOS widgets in the same window...
         //Should not be allowed, but it is possible thanks to the polymorphism.
         window.addWidget(10, 20, button);
+
+        button.setLink("http://localhost:8080/");
+
+        button.onClick();
     }
 }
