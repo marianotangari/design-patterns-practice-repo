@@ -13,7 +13,7 @@ public class Button extends Widget implements Clickable {
         System.out.println(String.format("Loading location: %s%n", link));
     }
 
-    public Widget setLink(String link) {
+    public Button setLink(String link) {
         this.link = link;
         return this;
     }

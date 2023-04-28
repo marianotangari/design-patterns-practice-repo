@@ -1,11 +1,12 @@
 package io.github.marianotangari.factory;
 
-import io.github.marianotangari.widget.Widget;
+import io.github.marianotangari.widget.*;
 
 public interface WidgetAbstractFactory {
 
-    Widget createButton();
-    Widget createIcon();
-    Widget createMenu();
-    Widget createWindow();
+    Button createButton();
+    Menu createMenu();
+    Window createWindow();
+
+    Label createLabel();
 }

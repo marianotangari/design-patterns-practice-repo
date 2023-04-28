@@ -4,7 +4,7 @@ public class Label extends Widget {
 
     private String color;
 
-    public Widget setColor(String color) {
+    public Label setColor(String color) {
         this.color = color;
         return this;
     }

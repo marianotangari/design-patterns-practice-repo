@@ -8,7 +8,7 @@ public class Menu extends Widget {
 
     private List<Label> labels = new ArrayList<>();
 
-    public Widget addLabels(Label... labels) {
+    public Menu addLabels(Label... labels) {
         this.labels.addAll(Arrays.asList(labels));
         return this;
     }

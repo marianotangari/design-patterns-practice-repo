@@ -3,6 +3,10 @@ package io.github.marianotangari.widget;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * A simple Window element which can hold a list of widget inside it.
+ * You can also set the window's border color.
+ */
 public class Window extends Widget {
 
     private String borderColor;
@@ -21,6 +25,14 @@ public class Window extends Widget {
         return borderColor;
     }
 
+    /**
+     * This method adds a Widget to the window. The added widget will be display as an element on the window
+     * when the window is rendered. You should also set the x and y coordinates for the Widget to
+     * be inserted on the window layout.
+     * @param xPosition x coordinate
+     * @param yPosition y coordinate
+     * @param widget any subclass of Widget
+     */
     public void addWidget(double xPosition, double yPosition, Widget widget) {
 
         Map<String, Double> coordinates = elements.get(widget);
